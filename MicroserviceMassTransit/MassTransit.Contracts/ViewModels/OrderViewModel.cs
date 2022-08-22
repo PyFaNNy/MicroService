@@ -1,4 +1,4 @@
-﻿namespace OrderService.ViewModel
+﻿namespace MassTransit.Contracts.ViewModels
 {
     public class OrderViewModel
     {

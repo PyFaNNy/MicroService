@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService.Domain", "..\Us
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService.DbContext", "..\UserService.DbContext\UserService.DbContext.csproj", "{A2F4EE50-DA8F-4639-BC78-EA8DF65D13FD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MassTransit.Contracts", "..\..\MassTransit.Contracts\MassTransit.Contracts.csproj", "{9C02764F-11F7-4353-896B-B621C937DC82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MassTransit.Contracts", "..\..\MassTransit.Contracts\MassTransit.Contracts.csproj", "{E8974114-D640-4DF0-8AEA-B97ACFBA3DED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{A2F4EE50-DA8F-4639-BC78-EA8DF65D13FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2F4EE50-DA8F-4639-BC78-EA8DF65D13FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2F4EE50-DA8F-4639-BC78-EA8DF65D13FD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9C02764F-11F7-4353-896B-B621C937DC82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9C02764F-11F7-4353-896B-B621C937DC82}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9C02764F-11F7-4353-896B-B621C937DC82}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9C02764F-11F7-4353-896B-B621C937DC82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8974114-D640-4DF0-8AEA-B97ACFBA3DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8974114-D640-4DF0-8AEA-B97ACFBA3DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8974114-D640-4DF0-8AEA-B97ACFBA3DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8974114-D640-4DF0-8AEA-B97ACFBA3DED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

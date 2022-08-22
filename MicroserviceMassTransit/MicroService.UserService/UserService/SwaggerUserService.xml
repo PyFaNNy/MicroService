@@ -10,5 +10,11 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:UserService.Controllers.UserController.GetUserWithOrders(System.Guid)">
+            <summary>
+            Get user with orders
+            </summary>
+            <returns></returns>
+        </member>
     </members>
 </doc>

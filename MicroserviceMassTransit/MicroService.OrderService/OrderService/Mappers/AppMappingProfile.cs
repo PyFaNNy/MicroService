@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
+using MassTransit.Contracts.ViewModels;
 using OrderService.Domain;
-using OrderService.ViewModel;
 
 namespace OrderService.Mappers
 {

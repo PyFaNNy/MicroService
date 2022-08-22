@@ -2,6 +2,7 @@ using MassTransit.Contracts;
 using OrderService.DbContext;
 using OrderService.DbContext.DatabaseInitialization;
 using OrderService.Mappers;
+using OrderService.MassTrasit;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,7 +16,10 @@ ConfigureServicesMassTransit.ConfigureServices(builder.Services, builder.Configu
 {
     IsDebug = secction.GetValue<bool>("IsDebug"),
     ServiceName = "OrderService",
-
+    Configurator = bus =>
+    {
+        bus.AddConsumer<OrderConsumer>();
+    }
 });
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

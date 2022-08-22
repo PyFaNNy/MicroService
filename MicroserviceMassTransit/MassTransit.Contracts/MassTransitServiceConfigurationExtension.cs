@@ -16,7 +16,7 @@ namespace MassTransit.Contracts
 
             configuration(transitConfiguration);
 
-            if( string.IsNullOrEmpty(serviceName))
+            if (string.IsNullOrEmpty(serviceName))
             {
                 throw new ArgumentException(nameof(serviceName));
             }

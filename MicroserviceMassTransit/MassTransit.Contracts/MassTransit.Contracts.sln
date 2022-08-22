@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MassTransit.Contracts", "MassTransit.Contracts.csproj", "{D80F5710-27CD-4152-80F8-0534B3738D76}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransit.Contracts", "MassTransit.Contracts.csproj", "{3E012461-415E-4211-9904-2607B0D81A82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D80F5710-27CD-4152-80F8-0534B3738D76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D80F5710-27CD-4152-80F8-0534B3738D76}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D80F5710-27CD-4152-80F8-0534B3738D76}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D80F5710-27CD-4152-80F8-0534B3738D76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E012461-415E-4211-9904-2607B0D81A82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E012461-415E-4211-9904-2607B0D81A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E012461-415E-4211-9904-2607B0D81A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E012461-415E-4211-9904-2607B0D81A82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E24066E6-B801-44CF-822F-415E7A6D949A}
+		SolutionGuid = {0AC7B11C-8EE2-4772-8C51-185F49BAA789}
 	EndGlobalSection
 EndGlobal

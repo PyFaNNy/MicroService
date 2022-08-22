@@ -8,7 +8,8 @@ namespace UserService.Mappers
     {
         public AppMappingProfile()
         {
-            CreateMap<User, UserViewModel>();
+            CreateMap<User, UserViewModel>()
+            .ForMember(x=> x.Orders, o => o.Ignore());
         }
     }
 }

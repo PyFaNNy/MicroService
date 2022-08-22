@@ -40,7 +40,6 @@ namespace MassTransit.Contracts
                     });
 
                     massTransitConfiguration.BusControl?.Invoke(bus, services.BuildServiceProvider());
-
                     return bus;
                 });
 

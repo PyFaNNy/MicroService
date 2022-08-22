@@ -1,5 +1,4 @@
 ﻿using MassTransit.ExtensionsDependencyInjectionIntegration;
-using Microsoft.Extensions.DependencyInjection;
 
 namespace MassTransit.Contracts
 {
