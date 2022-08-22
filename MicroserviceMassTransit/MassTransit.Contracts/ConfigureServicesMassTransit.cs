@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using MassTransit.Definition;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace MassTransit.Contracts
@@ -45,7 +46,7 @@ namespace MassTransit.Contracts
 
 
                 massTransitConfiguration.Configurator?.Invoke(x);
-               
+                services.AddMassTransitHostedService();
             });
         }
     }
